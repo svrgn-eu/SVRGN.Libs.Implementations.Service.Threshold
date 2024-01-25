@@ -4,7 +4,7 @@
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<LangVersion>latest</LangVersion>
-		<Version>0.1.0-alpha01</Version>
+		<Version>0.1.0-alpha02</Version>
 		<Authors>SVRGN.eu</Authors>
 		<Copyright>2024 SVRGN.eu</Copyright>
 		<Description>Base implementation of thresholding services</Description>
