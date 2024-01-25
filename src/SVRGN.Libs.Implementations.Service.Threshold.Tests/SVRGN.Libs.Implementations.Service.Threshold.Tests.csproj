@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.0.4" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.0.4" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+	  <PackageReference Include="SVRGN.Libs.Contracts.Service.Threshold" Version="0.1.0-alpha01" />
+	  <PackageReference Include="SVRGN.Libs.Implementations.DependencyInjection" Version="1.0.0-alpha02" />
+	  <PackageReference Include="SVRGN.Libs.Implementations.Service.ConsoleLogger" Version="1.0.0-alpha09" />
+	  <PackageReference Include="SVRGN.Libs.Implementations.Service.Object" Version="1.0.0-alpha01" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SVRGN.Libs.Implementations.Service.Threshold\SVRGN.Libs.Implementations.Service.Threshold.csproj" />
+  </ItemGroup>
+
+</Project>

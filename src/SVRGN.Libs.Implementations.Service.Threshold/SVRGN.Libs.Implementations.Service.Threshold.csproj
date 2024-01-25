@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<LangVersion>latest</LangVersion>
+		<Version>0.1.0-alpha01</Version>
+		<Authors>SVRGN.eu</Authors>
+		<Copyright>2024 SVRGN.eu</Copyright>
+		<Description>Base implementation of thresholding services</Description>
+		<PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+		<PackageTags>Implementations;SVRGN;Content;Threshold;</PackageTags>
+		<PackageProjectUrl>https://SVRGN.eu</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SVRGN.Libs.Contracts.Service.Threshold" Version="0.1.0-alpha01" />
+  </ItemGroup>
+
+</Project>
